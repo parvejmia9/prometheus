@@ -4,8 +4,9 @@
 for i in {1..10}
 do
   # Print the command to the terminal
-  echo "$i. Executing command: curl localhost:8081/ping"
+  echo "$i. Executing command: curl localhost:8181/ping"
 
   # Execute the curl command
-  curl localhost:8081/ping
+  curl localhost:8181/ping
+
 done
